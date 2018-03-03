@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BMS</class>
+ <widget class="QWidget" name="BMS">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>795</width>
+    <height>249</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>781</width>
+     <height>181</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>BMS Setting</string>
+   </property>
+   <widget class="QWidget" name="horizontalLayoutWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>40</y>
+      <width>771</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="gridLayout">
+     <item row="0" column="0">
+      <widget class="QLabel" name="label_4">
+       <property name="text">
+        <string>Battery Type</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="3">
+      <widget class="QLabel" name="label_5">
+       <property name="text">
+        <string>Max Total Voltage</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="2">
+      <widget class="QLabel" name="label_11">
+       <property name="text">
+        <string>V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="3">
+      <widget class="QLabel" name="label_6">
+       <property name="text">
+        <string>Nominal Energy</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="5">
+      <widget class="QLabel" name="label_14">
+       <property name="text">
+        <string>kw.h</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="5">
+      <widget class="QLabel" name="label_12">
+       <property name="text">
+        <string>A</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="5">
+      <widget class="QLabel" name="label_13">
+       <property name="text">
+        <string>V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QLabel" name="label">
+       <property name="text">
+        <string>Rated Capacity:</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="6">
+      <widget class="QLabel" name="label_9">
+       <property name="text">
+        <string>Charging Mode</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="4">
+      <widget class="QSpinBox" name="spinBox_2">
+       <property name="maximum">
+        <number>1500</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="2">
+      <widget class="QLabel" name="label_10">
+       <property name="text">
+        <string>A.H</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="6">
+      <widget class="QLabel" name="label_8">
+       <property name="text">
+        <string>Voltage Demand</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QSpinBox" name="spinBox_3">
+       <property name="maximum">
+        <number>1000</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QSpinBox" name="spinBox">
+       <property name="maximum">
+        <number>1500</number>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="7">
+      <widget class="QSpinBox" name="spinBox_7">
+       <property name="maximum">
+        <number>1500</number>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QLabel" name="label_2">
+       <property name="text">
+        <string>Rated Votage</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="4">
+      <widget class="QSpinBox" name="spinBox_4">
+       <property name="maximum">
+        <number>1000</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="6">
+      <widget class="QLabel" name="label_7">
+       <property name="text">
+        <string>Current Demand</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="7">
+      <widget class="QSpinBox" name="spinBox_6">
+       <property name="maximum">
+        <number>400</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="4">
+      <widget class="QSpinBox" name="spinBox_5">
+       <property name="maximum">
+        <number>400</number>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="3">
+      <widget class="QLabel" name="label_3">
+       <property name="text">
+        <string>MAx Current</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="8">
+      <widget class="QLabel" name="label_15">
+       <property name="text">
+        <string>A</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="8">
+      <widget class="QLabel" name="label_16">
+       <property name="text">
+        <string>V</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="7" colspan="2">
+      <widget class="QComboBox" name="comboBox_2">
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string>Constant Voltage</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Constant Current</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+     <item row="0" column="1" colspan="2">
+      <widget class="QComboBox" name="comboBox">
+       <property name="editable">
+        <bool>true</bool>
+       </property>
+       <item>
+        <property name="text">
+         <string>Acid Lead</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lithuim Iron Phosphate</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Nickel Hydrogen</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lithium Manganese Oxide</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>lithium Cobalt Oxide</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Ternary Material</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Polymwe Litium Ion</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Lithium Titanate</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Others</string>
+        </property>
+       </item>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+  <widget class="QWidget" name="horizontalLayoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>180</y>
+     <width>331</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="1" column="0">
+     <widget class="QLineEdit" name="lineEdit"/>
+    </item>
+    <item row="1" column="2">
+     <widget class="QComboBox" name="comboBox_3">
+      <item>
+       <property name="text">
+        <string>Charging Stop</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Charging Handshake</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Parameter Configueration</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Charging</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>End of Charging</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="QLineEdit" name="lineEdit_2"/>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>Voltage Value</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>Current Value</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_19">
+      <property name="text">
+       <string>Charging State</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
