@@ -6,15 +6,18 @@ TEMPLATE = app
 SOURCES += main.cpp \
     mainwindow.cpp \
     connectdialog.cpp \
-    bms.cpp
+    bms.cpp \
+    bmswindow.cpp
 
 HEADERS += mainwindow.h \
     connectdialog.h \
-    bms.h
+    bms.h \
+    bmswindow.h
 
 FORMS   += mainwindow.ui \
     connectdialog.ui \
-    bms.ui
+    bms.ui \
+    bmswindow.ui
 
 RESOURCES += can.qrc
 
